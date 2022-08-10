@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if Statement</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let Amit_age = 22;
+    let Paras_age = 23;
+    let vishal_age = 25;
+    let devansh_age = 21;
+    
+
+    if (Amit_age>Paras_age && Amit_age>vishal_age && Amit_age>devansh_age) {
+        document.write("Amit age is highest in our group");
+    }
+    else if (Paras_age>Amit_age && Paras_age>vishal_age && Paras_age>devansh_age) {
+        document.write("Paras age is highest age out group");
+    }
+    else if(vishal_age>Amit_age && vishal_age>Paras_age  && vishal_age>devansh_age){
+        document.write("vishal age is highest in our group");
+    }
+    else if(devansh_age>Amit_age && devansh_age>Paras_age && devansh_age>vishal_age){
+        document.write("devansh have highest age in our group");
+    }
+    else{
+        document.write("Someone age is same");
+    }
+  
+    document.write("<br>");
+
+
+    //Using funnction
+
+  function highest(params) {
+    let Amit_age = 22;
+    let Paras_age = 26;
+    let vishal_age = 25;
+    let devansh_age = 21;
+    
+
+    if (Amit_age>Paras_age && Amit_age>vishal_age && Amit_age>devansh_age) {
+        document.write("Amit age is highest in our group");
+    }
+    else if (Paras_age>Amit_age && Paras_age>vishal_age && Paras_age>devansh_age) {
+        document.write("Paras age is highest in our group");
+    }
+    else if(vishal_age>Amit_age && vishal_age>Paras_age  && vishal_age>devansh_age){
+        document.write("vishal age is highest in our group");
+    }
+    else if(devansh_age>Amit_age && devansh_age>Paras_age && devansh_age>vishal_age){
+        document.write("devansh have highest age in our group");
+    }
+    else{
+        document.write("Someone age is same");
+    }
+  
+  }
+  highest();
+
+
+    // let subject = ["english","math","hindi","pol","history"];
+    // let length =  subject.length;
+    // let total;
+    // let average;
+    
+    // subject [0] = 80;
+    // math = 88;
+    // hindi = 99;
+    // pol = 45;
+    // history = 78;
+
+
+    // document.write(length);
+    // total = [0]+math+hindi+pol+history;
+    // document.write("Total marks = ",total);
+    // document.write("<br>");
+    // average = total*2;
+    // document.write(average);
+
+
+
+</script>
+</html>

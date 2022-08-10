@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types in javascript</title>
+
+    <script>
+        
+    //String Data Type
+    var A = "Hello World"; //--------------->  String
+    document.write(A);
+    document.write("----------->",typeof A);
+    document.write("<br>");
+    document.write("<br>");
+    
+    
+
+    //Number Data Type
+    var B = 5;             //--------------->  Number
+    document.write(B);
+    document.write("----------->",typeof B);
+    document.write("<br>");
+    document.write("<br>");
+
+
+    //Boolean Data Type   
+    var C = true;         //---------------->  Boolean
+    document.write(C);
+    document.write("----------->",typeof C);
+    document.write("<br>");
+    document.write("<br>");
+
+
+    //Array Data Type 
+    var D =["HTML","CSS","JavaScript"];   //---------------->  Array
+    document.write(D);
+    document.write("----------->",typeof D,". In javascript typeof array print as a object");
+    document.write("<br>");
+    document.write("<br>");
+
+
+    </script>
+  
+</head>
+<body>
+    <p id="Demo-Object"></p>
+</body>
+<script>
+    
+    //Object Data Type
+    var E = {                           //---------------->  Object
+        First:"Paras",
+        Last :"Grover",
+        Age  : "21",
+        
+    };
+    document.write(E);
+    document.write("----------->",typeof E); 
+    document.getElementById("Demo-Object").innerHTML = E.First + ", " + E.Last + ", " + E.Age;
+    document.write("<br>");
+    document.write("<br>");
+    
+
+    //Null Data Type
+    var F = null;
+    document.write(F);
+    document.write("----------->",typeof F);
+    document.write("<br>");
+    document.write("<br>");
+
+
+   //Undefind Data Type
+   var G =undefined;
+   document.write(G);
+   document.write("----------->",typeof G);
+</script>
+</html>
