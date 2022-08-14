@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break & Continue Statement</title>
+</head>
+
+<body>
+
+</body>
+<script>
+//    continue Statement
+
+
+    for (let paras_age = 1; paras_age <= 25; paras_age++) {
+        if (paras_age == 18) {
+        document.write("Age:"+ paras_age + "Good Day's<br>");
+        continue;
+        
+    }
+    else if (paras_age>18 && paras_age<=21) {                                      
+        document.write("Age:"+paras_age +"Struggle day's <br>");
+        continue;
+    }
+
+    else if (paras_age>21 && paras_age<=25) {                                      
+        document.write("Age:"+paras_age +"Maybe i'm success<br>");
+        continue;
+    }
+    document.write("Age:"+ paras_age + "Normal Days <br>");
+    
+    }
+    document.write("<br>")
+
+//   Break Statemment
+
+
+    for (var Amit_age = 1; Amit_age <=20; Amit_age++) {
+        if(Amit_age==18) {
+            document.write(Amit_age +"Nice Days<br>");
+            break;
+        }
+        document.write(Amit_age + "Normal days<br>");
+        
+    }
+</script>
+
+</html>

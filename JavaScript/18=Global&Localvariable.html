@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global & Local Varibal</title>
+</head>
+<body>
+    
+</body>
+
+<Script>
+    //Global Variable          Global variable work's inside tha function and also  outside the function.
+    // var a = "Paras Grover";
+    // function hello() {
+    //     document.write(a);
+    // }
+    // hello();
+
+    //Local Variable           Local variable work's Only inside the function.
+    function fname() {
+        document.write("Paras Grover");
+        var a = "Paras Grover";
+        document.write(a);
+    }
+    fname();
+    // document.write(a);     Error a in Not defind.
+</Script>
+</html>

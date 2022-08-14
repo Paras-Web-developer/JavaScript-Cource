@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JavaScripts</title>
+    <style>
+        
+        body{
+            background-color: black;
+        }
+        .btn{
+            background-color: rgb(255, 0, 0);
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            border: 2px solid white;
+            display: block;
+            margin-bottom: 3%;
+            
+        }
+        h3{
+            display: inline;
+            color: white;
+        }
+    </style>
+</head>
+<body onresize="Resize()">   <!--    Onresize event perform on only body.its perform when we change screen size. -->
+<!-- <body onscroll="onscroll()">     onscroll event perform when scrool the  screen. -->
+     <!-- <body onload="Load()">      Onload event perforn when reload the page. -->
+     <!-- <body onunload="UnLoad()">       Onunload event perforn when unload the page. -->
+
+    <button onclick="Click()" class="btn">click</button> 
+    <button ondblclick="Double_click()" class="btn">Double Click</button> 
+    <button oncontextmenu="Right_click()" class="btn">Right Click</button> 
+    <button onmouseenter="Mouse_hover()" class="btn">Mouse Hover</button> 
+    <button onmouseout="Mouse_Out()" class="btn">Mouse Out</button> 
+    <button onmousedown="Mouse_Down()" class="btn">Mouse Down</button>
+    <button onmouseup="Mouse_up()" class="btn">Mouse Up </button>
+    <textarea onkeypress="Key_Press()" class="btn">Key Press</textarea> <!-- OnKeypress Works only text area and body. -->
+    <button onkeyup="Key_up()" class="btn">Key up</button> 
+    
+   
+
+
+
+    
+</body>
+    
+    <script>
+    function Click(){
+        alert("Click Event");
+    }
+
+    function Double_click() {
+        alert("Double Click");
+    }
+
+    function Right_click() {
+        alert("Right Click");
+    }
+
+    function Mouse_hover() {
+        alert("Mouse Hover");
+    }
+    
+    function Mouse_Out() {
+        alert("Mouse Out");
+    }
+
+    function Mouse_Down() {
+        alert("Mouse Down");
+    }
+    
+    function Mouse_up() {
+        alert("Mouse up");
+    }
+
+    function Key_Press() {
+        document.write("KeyPress");
+    }
+
+    function Key_up() {
+        alert("Key Up");
+    }
+
+    function Key_up() {
+        alert("Key Up");
+    }
+
+    function Load() {
+        alert("Load");
+    }
+
+    function UnLoad() {
+        alert("UnLoad");
+    }
+
+    function Resize() {
+        alert("Ressize");
+    }
+
+    function onscroll() {
+        alert("Onscroll");
+    }
+    </script>
+</html>
